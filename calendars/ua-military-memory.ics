@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:-//ua-military-calendar//UA-MEMORY//EN
+X-WR-CALNAME:UA Military - Memory & Remembrance
+X-WR-TIMEZONE:Europe/Kyiv
+
+BEGIN:VEVENT
+UID:ua-mem-kruty@ua-mil
+SUMMARY:День памʼяті Героїв Крут
+DTSTART;VALUE=DATE:20250129
+RRULE:FREQ=YEARLY;BYMONTH=1;BYMONTHDAY=29
+END:VEVENT
+
+BEGIN:VEVENT
+UID:ua-mem-afgan-veterans@ua-mil
+SUMMARY:День вшанування учасників бойових дій на території інших держав
+DTSTART;VALUE=DATE:20250215
+RRULE:FREQ=YEARLY;BYMONTH=2;BYMONTHDAY=15
+END:VEVENT
+
+BEGIN:VEVENT
+UID:ua-mem-heavenly-hundred@ua-mil
+SUMMARY:День Героїв Небесної Сотні
+DTSTART;VALUE=DATE:20250220
+RRULE:FREQ=YEARLY;BYMONTH=2;BYMONTHDAY=20
+END:VEVENT
+
+BEGIN:VEVENT
+UID:ua-mem-volunteers@ua-mil
+SUMMARY:День українського добровольця
+DTSTART;VALUE=DATE:20250314
+RRULE:FREQ=YEARLY;BYMONTH=3;BYMONTHDAY=14
+END:VEVENT
+
+BEGIN:VEVENT
+UID:ua-mem-heroes-day@ua-mil
+SUMMARY:День Героїв України
+DTSTART;VALUE=DATE:20250523
+RRULE:FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=23
+END:VEVENT
+
+BEGIN:VEVENT
+UID:ua-mem-ww2-remembrance@ua-mil
+SUMMARY:День памʼяті та перемоги над нацизмом у Другій світовій війні
+DTSTART;VALUE=DATE:20250508
+RRULE:FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=8
+END:VEVENT
+
+BEGIN:VEVENT
+UID:ua-mem-war-victims@ua-mil
+SUMMARY:День скорботи і вшанування памʼяті жертв війни
+DTSTART;VALUE=DATE:20250622
+RRULE:FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=22
+END:VEVENT
+
+BEGIN:VEVENT
+UID:ua-mem-remembrance-defenders@ua-mil
+SUMMARY:День памʼяті захисників України, полеглих у боротьбі за незалежність
+DTSTART;VALUE=DATE:20250829
+RRULE:FREQ=YEARLY;BYMONTH=8;BYMONTHDAY=29
+END:VEVENT
+
+BEGIN:VEVENT
+UID:ua-mem-liberation@ua-mil
+SUMMARY:День визволення України від нацистських загарбників
+DTSTART;VALUE=DATE:20251028
+RRULE:FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=28
+END:VEVENT
+
+END:VCALENDAR
