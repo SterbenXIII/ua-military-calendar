@@ -4,6 +4,15 @@
 ![Made in Ukraine](https://img.shields.io/badge/Made%20in-Ukraine-0057B7?labelColor=FFD700)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 
+## 🤝 Підтримати захисників України
+[![Donate Sternenko Fund](https://img.shields.io/badge/Donate-Sternenko%20Fund-0057B7?style=flat-square&labelColor=000000)](https://www.sternenkofund.org/donate)
+[![Donate Prytula Foundation](https://img.shields.io/badge/Donate-Prytula%20Foundation-FF6F00?style=flat-square&labelColor=000000)](https://prytulafoundation.org/)
+[![Support UA Defenders](https://img.shields.io/badge/Support-UA%20Defenders-FFD700?style=flat-square&labelColor=0057B7)](#-підтримати-захисників)
+
+> Посилання наведені для зручності. Завжди перевіряйте реквізити та домен перед донатом.
+
+Ми не приймаємо донати самостійно — будь ласка, жертвуйте лише через офіційні платформи.
+
 Public and community-maintained calendar of Ukrainian military, professional, and remembrance days in **ICS** format.
 
 **Languages:** 🇺🇦 Українська · 🇬🇧 English
@@ -100,6 +109,14 @@ These feeds are useful for:
 - journalists and researchers,
 - international supporters who want to track key Ukrainian military and remembrance dates.
 
+### 🤝 Support Ukrainian Defenders
+[![Donate Sternenko Fund](https://img.shields.io/badge/Donate-Sternenko%20Fund-0057B7?style=flat-square&labelColor=000000)](https://www.sternenkofund.org/donate)
+[![Donate Prytula Foundation](https://img.shields.io/badge/Donate-Prytula%20Foundation-FF6F00?style=flat-square&labelColor=000000)](https://prytulafoundation.org/)
+[![Support UA Defenders](https://img.shields.io/badge/Support-UA%20Defenders-FFD700?style=flat-square&labelColor=0057B7)](#-підтримати-захисників)
+> Links are provided for convenience. Always verify details and domain before donating.
+
+We do not process donations ourselves — please donate only via official platforms.
+
 ### 🔗 Available Feeds
 
 - **Full calendar (official + memory)**  
@@ -115,7 +132,7 @@ These feeds are useful for:
 
 **Apple Calendar / iOS / macOS**
 
-- Add a *Subscribed Calendar* and paste one of the URLs above.
+- Add a _Subscribed Calendar_ and paste one of the URLs above.
 
 **Google Calendar**
 
@@ -135,4 +152,3 @@ This project is licensed under the [MIT License](./LICENSE).
 
 You are free to use, copy, modify, and integrate these ICS files in your systems and services, with attribution to the repository and contributors.
 Event dates as factual information are not subject to copyright; the structure and curation of this calendar are shared openly.
-
