@@ -28,34 +28,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install icalendar
 
-      - name: Validate ICS files
-        shell: python
+      - name: Lint ICS files
         run: |
-          import os
-          import sys
-          from icalendar import Calendar
-
-          root = "calendars"
-          if not os.path.isdir(root):
-            print(f"No '{root}' directory found. Skipping.")
-            sys.exit(0)
-
-          failed = False
-
-          for dirpath, _, filenames in os.walk(root):
-            for filename in filenames:
-              if not filename.lower().endswith(".ics"):
-                continue
-              path = os.path.join(dirpath, filename)
-              print(f"Validating: {path}")
-              try:
-                with open(path, "rb") as f:
-                  data = f.read()
-                Calendar.from_ical(data)
-              except Exception as e:
-                failed = True
-                print(f"::error file={path}::Invalid ICS: {e}")
-
-          if failed:
-            sys.exit(1)
-          print("All ICS files are valid ✅")
+          python scripts/lint_ics.py
