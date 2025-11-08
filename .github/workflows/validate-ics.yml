@@ -4,14 +4,21 @@ on:
   push:
     paths:
       - "calendars/**/*.ics"
+      - "scripts/lint_ics.py"
+      - "pyproject.toml"
+      - "poetry.lock"
       - ".github/workflows/validate-ics.yml"
   pull_request:
     paths:
       - "calendars/**/*.ics"
+      - "scripts/lint_ics.py"
+      - "pyproject.toml"
+      - "poetry.lock"
       - ".github/workflows/validate-ics.yml"
 
 jobs:
   validate-ics:
+    name: Lint and validate ICS files
     runs-on: ubuntu-latest
 
     steps:
@@ -21,13 +28,21 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: "3.11"
+
+      - name: Install Poetry
+        run: |
+          curl -sSL https://install.python-poetry.org | python3 -
+          echo "${HOME}/.local/bin" >> $GITHUB_PATH
+
+      - name: Configure Poetry (no virtualenv in project)
+        run: |
+          poetry config virtualenvs.in-project false
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install icalendar
+          poetry install --no-interaction --no-root
 
-      - name: Lint ICS files
+      - name: Run ICS linter
         run: |
-          python scripts/lint_ics.py
+          poetry run python scripts/lint_ics.py
